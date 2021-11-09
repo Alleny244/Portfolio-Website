@@ -1185,145 +1185,249 @@ color: white;
 }
 
 
-/*     
-<!-- PROJECTS -->
-<div class="projects">
-  <h2 class="wow animate__animated animate__fadeInDown">PROJECTS</h2>
-  <hr class="underline mb-5">
-  <div class="row prorow main-row">
-    <div class="col-md-7 col-12 procol">
-      <img class="proimg wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s"
-        src="7.jpg">
-    </div>
-    <div class="col-md-4 col-12 protext">
-      <h4 class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">Eatssy</h4>
-      <p class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">Front-end for a food delivery
-        service</p>
-      <div>
-        <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="html" alt="html"
-          src="./Assets/svg/html.svg">
-        <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="css" alt="css"
-          src="./Assets/svg/css.svg">
-        <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="javascript"
-          alt="javascript" src="./Assets/svg/javascripts.svg">
-        <img class="svgboot wow animate__animated animate__fadeIn" data-wow-delay="0.9s"
-          src="./Assets/svg/bootstrap.png">
-      </div>
-      <div>
-        <a href="https://vishruth-s.github.io/Food_app/"><button
-            class="web-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">Go to website</button></a>
-        <a href="https://github.com/Vishruth-S/Food_app"><button
-            class="github-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">View on Github</button></a>
-      </div>
-    </div>
-    <div class="col-md-7 col-12 procol">
-      <img class="proimg wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s"
-        src="./Assets/img/book3.png">
-    </div>
-    <div class="col-md-4 col-12 protext">
-      <h4 class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">BOOKspace</h4>
-      <p class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">An online platform to buy and sell
-        books. Includes features such as creating account, login, authentication,
-        email verification, search and more </p>
-      <img class="svg wow animate__animated animate__fadeIn" title="nodejs" alt="nodejs" data-wow-delay="0.9s"
-        src="./Assets/svg/nodejss.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="express" alt="express"
-        src="./Assets/svg/express.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="html" alt="html"
-        src="./Assets/svg/html.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="css" alt="css"
-        src="./Assets/svg/css.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="javascript" alt="javascript"
-        src="./Assets/svg/javascripts.svg">
-      <br>
-      <img class="svgboot wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="bootstrap"
-        alt="bootstrap" src="./Assets/svg/bootstrap.png">
-      <img class="svgmongo wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="mongodb" alt="mongodb"
-        src="./Assets/svg/mongodb.svg">
-      <div>
-        <a href="https://bookspace5.herokuapp.com/books"><button
-            class="web-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">Go to website</button></a>
-        <a href="https://github.com/Vishruth-S/BOOKspace"><button
-            class="github-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">View on Github</button></a>
-      </div>
-    </div>
-    <div class="col-md-7 col-12 procol">
-      <img class="proimg wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s"
-        src="./Assets/img/weather.png">
-    </div>
-    <div class="col-md-4 col-12 protext">
-      <h4 class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">WeatherApp</h4>
-      <p class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">A simple website that displays the
-        current weather info(temperature, humidity, wind-speed etc) of any location in the world </p>
-      <img class="svg wow animate__animated animate__fadeIn" title="react" alt="react" data-wow-delay="0.9s"
-        src="./Assets/svg/react.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" src="./Assets/svg/javascripts.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="html" alt="html"
-        src="./Assets/svg/html.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="css" alt="css"
-        src="./Assets/svg/css.svg">
 
-      <br>
-      <a href="https://vishruth-s.github.io/React_Weather_App"><button
-          class="web-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">Go to website</button></a>
-      <a href="https://github.com/Vishruth-S/React_Weather_App"><button
-          class="github-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">View on Github</button></a>
-    </div>
-    <div class="col-md-7 col-12 procol">
-      <img class="proimg wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s"
-        src="./Assets/img/sorter.png">
-    </div>
-    <div class="col-md-4 col-12 protext">
-      <h4 class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">SortSimple</h4>
-      <p class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">A Sorting visualiser that visualises
-        various sorting algorithms step by step (QuickSort, BubbleSort, MergeSort, SelectionSort, InsertionSort and
-        more)</p>
-      <img class="svg wow animate__animated animate__fadeIn" title="react" alt="react" data-wow-delay="0.9s"
-        src="./Assets/svg/react.svg">
-      <img class="svg wow animate__animated animate__fadeIn" title="javascript" alt="javascript" data-wow-delay="0.9s"
-        src="./Assets/svg/javascripts.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="html" alt="html"
-        src="./Assets/svg/html.svg">
-      <img class="svg wow animate__animated animate__fadeIn" data-wow-delay="0.9s" title="css" alt="css"
-        src="./Assets/svg/css.svg">
+.btn15 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.btn15 img {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.btn15 .ovrly {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn15 .buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn15 .buttons .fa {
+  background: rgb(256, 256, 256);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  color: rgba(50, 50, 50, 0.9);
+}
+.btn15 .buttons .fa-link {
+  left: -215%;
+}
+.btn15 .buttons .button-text {
+  opacity: 1;
+}
+.btn15 .buttons .button-text :hover {
+  opacity: 1;
+  display: inline;
+}
+.btn15 .buttons .fa-search {
+  right: -215%;
+}
+.btn15:hover .buttons .fa-link {
+  left: 0;
+}
+.btn15:hover .buttons .fa-search {
+  right: 0;
+}
+.btn15:hover .ovrly {
+  opacity: 1;
+}
 
-      <br>
-      <a href="https://vishruth-s.github.io/SortSimple/"><button
-          class="web-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">Go to website</button></a>
-      <a href="https://github.com/Vishruth-S/SortSimple"><button
-          class="github-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">View on Github</button></a>
-    </div>
-    <div class="col-md-7 col-12 procol">
-      <img class="proimg wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s"
-        src="./Assets/img/qwikchat.png">
-    </div>
-    <div class="col-md-4 col-12 protext">
-      <h4 class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">QwikCHAT</h4>
-      <p class="wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">An instant ont time chat application
-        that allows to chat with any number of persons in a room, supports emojis, dark mode and more</p>
-      <img class="svg wow animate__animated animate__fadeIn" title="nodejs" alt="nodejs" data-wow-delay="0.9s"
-        src="./Assets/svg/nodejss.svg">
-      <img class="svg wow animate__animated animate__fadeIn" title="react" alt="react" data-wow-delay="0.9s"
-        src="./Assets/svg/react.svg">
-      <img class="svg wow animate__animated animate__fadeIn" title="socket-io" alt="socketio" data-wow-delay="0.9s"
-        src="./Assets/svg/socket-io.svg">
-      <img class="svg wow animate__animated animate__fadeIn" title="javascript" alt="javascript" data-wow-delay="0.9s"
-        src="./Assets/svg/javascripts.svg">
-      <img class="svg wow animate__animated animate__fadeIn" title="html" alt="html" data-wow-delay="0.9s"
-        src="./Assets/svg/html.svg">
-      <img class="svg wow animate__animated animate__fadeIn" title="css" alt="css" data-wow-delay="0.9s"
-        src="./Assets/svg/css.svg">
+.btn01 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.btn01 img {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.btn01 .ovrly {
+  background: rgba(0, 0, 0, 0.5);
+  /* height: 100%;
+  left: 0;
+  top: -100%;
+  width: 100%; */
+  position: absolute;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btn01 .buttons {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn01 .buttons .fa {
+  margin: 0 1px;
+  background: rgb(256, 256, 256);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: rgba(50, 50, 50, 0.9);
+  display: inline-block;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+}
+.btn01:hover .buttons {
+  top: 50%;
+}
+.btn01:hover .ovrly {
+  top: 0;
+}
 
-      <br>
-      <a href="https://qwikchat.netlify.app/"><button class="web-btn wow animate__animated animate__bounceIn"
-          data-wow-delay="1s">Go to website</button></a>
-      <a href="https://github.com/Vishruth-S/QwikCHAT"><button
-          class="github-btn wow animate__animated animate__bounceIn" data-wow-delay="1s">View on Github</button></a>
-    </div>
-  </div>
-</div>
-<p class="wow animate__animated animate__flipInX" data-wow-delay="1s" id="morepro">Visit my
-  <a href="https://github.com/Vishruth-S" style="color: rgb(235, 83, 145); text-decoration: underline;">Github</a>
-  for more projects
-</p>
-</div> */
+.btn02 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: max-content;
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.btn02 img {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.btn02 .ovrly {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: -100%;
+  top: 0;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btn02 .buttons {
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn02 .buttons .fa {
+  margin: 0 1px;
+  background: rgba(256, 256, 256, 0.9);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: rgba(50, 50, 50, 0.9);
+  display: inline-block;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+}
+.btn02:hover .buttons {
+  left: 50%;
+}
+.btn02:hover .ovrly {
+  left: 0;
+}
+
+
+
+
+.items-container {
+  padding: 0;
+}
+.item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+
+
+.sections-title {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.sections-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: left;
+  color:#B5AFA6;
+  text-decoration: underline #e6e9ec ;
+  text-underline-position: under;
+}
+
